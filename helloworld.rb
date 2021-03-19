@@ -40,14 +40,29 @@ puts x
 
 # p array[random]
 
-name =gets
+# name =gets
 
-items=["大吉","中吉","小吉","吉"]
-items.push("凶")
-items.push("大凶")
-items.push("末吉")
+# items=["大吉","中吉","小吉","吉"]
+# items.push("凶")
+# items.push("大凶")
+# items.push("末吉")
 
-random=rand(items.size)
+# random=rand(items.size)
 
-puts name+"さんは"+items[random]+"です。"
-# p name+"さんは"+items[random]+"です。"
+# puts name+"さんは"+items[random]+"です。"
+# # p name+"さんは"+items[random]+"です。"
+
+a=10
+
+puts a
+
+case a
+when 10
+  b="a=10"
+when 0
+  b="a=0"
+# else
+  
+end
+
+print(b)
