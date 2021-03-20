@@ -66,3 +66,9 @@ when 0
 end
 
 print(b)
+
+xx=0
+while xx<10 do
+ puts xx 
+  xx=xx+1
+end
