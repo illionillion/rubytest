@@ -52,32 +52,44 @@ puts x
 # puts name+"さんは"+items[random]+"です。"
 # # p name+"さんは"+items[random]+"です。"
 
-a=10
+# a=10
 
-puts a
+# puts a
 
-case a
-when 10
-  b="a=10"
-when 0
-  b="a=0"
-# else
+# case a
+# when 10
+#   b="a=10"
+# when 0
+#   b="a=0"
+# # else
   
-end
+# end
 
-print(b)
+# print(b)
 
-xx=0
-while xx<10 do
- puts xx 
-  xx=xx+1
-end
+# xx=0
+# while xx<10 do
+#  puts xx 
+#   xx=xx+1
+# end
 
 # num=0
 
-for num in(1..15)
-  # puts num
-  break if num>9
+# for num in(1..15)
+#   # puts num
+#   break if num>9
+#   puts num
+#   # puts "end"
+# end
+arr=[]
+for num in 1..20 do
+  arr.push(num)
   puts num
-  # puts "end"
+  if num%2==0
+    puts "delete"
+    arr.delete(num)
+  end
+  # p num
 end
+
+print arr
