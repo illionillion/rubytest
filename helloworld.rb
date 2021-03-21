@@ -72,3 +72,12 @@ while xx<10 do
  puts xx 
   xx=xx+1
 end
+
+# num=0
+
+for num in(1..15)
+  # puts num
+  break if num>9
+  puts num
+  # puts "end"
+end
