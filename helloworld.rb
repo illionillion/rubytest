@@ -97,3 +97,23 @@ print arr.reverse
 array2={"a":"A","b":"B"}
 
 print array2
+
+array3=[[1,2,3],[4,5.6],[7,8,9]]
+
+# print array3
+# print array3[0]
+# print array3[1]
+# print array3[2]
+print array3[2][2]
+
+arr.each do |x|
+  puts x
+  # puts "lll"
+  arr.delete(x)
+end
+
+print arr
+
+11.times do
+  puts "hoge"
+end
