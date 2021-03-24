@@ -92,4 +92,8 @@ for num in 1..20 do
   # p num
 end
 
-print arr
+print arr.reverse
+
+array2={"a":"A","b":"B"}
+
+print array2
