@@ -117,3 +117,31 @@ print arr
 11.times do
   puts "hoge"
 end
+
+=begin
+
+できなかった
+  
+rescue => exception
+  
+end
+
+text="Hi I am Yuto!!\nこんにちは　私はゆとです！\n";
+print text
+a=text.lenght
+text.downcase!
+
+print text[0]
+
+
+
+text.each do|i|
+  print text[i]
+end
+
+for num in 1..a do
+  print text
+  puts num
+end
+
+=end
